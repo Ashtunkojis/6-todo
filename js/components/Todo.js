@@ -16,9 +16,8 @@ class Todo {
         });
     }
 
-    edit(index, newText) {
-        this.list[index].text = newText;
-    }
+    edit = (index, newText) => this.list[index].text = newText;
+
 
     remove(index) {
         if (index < 0 ||
@@ -42,9 +41,8 @@ class Todo {
         console.table(list);
     }
 
-    taskCompleted(index) {
-        this.list[index].completed = true;
-    }
+    taskCompleted = (index) => this.list[index].completed = true;
+    
 
     printCompletedOnly() {
         const completed = [];
