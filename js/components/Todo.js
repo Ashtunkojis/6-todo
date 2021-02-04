@@ -28,6 +28,9 @@ class Todo {
 
         const filtered = [];
 
+        //  let filtered1 = filtered.filter(i => i !== index).push(this.list[i]);
+        //  this.list = filtered1;
+
         for (let i = 0; i < this.list.length; i++) {
             if (i !== index) {
                 filtered.push(this.list[i]);

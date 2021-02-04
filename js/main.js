@@ -27,3 +27,7 @@ blynai.printNotCompletedOnly();
 blynai.print();
 blynai.edit(0, 'test');
 blynai.print();
+
+blynai.remove(1);
+blynai.print();
+blynai.print();
